@@ -12,7 +12,7 @@
           </li>
         </ul>
         <div class="d-flex ms-4">
-          <a href="#" class="btn btn-primary rounded-pill get-support">Get Support</a>
+          <a href="#" class="btn btn-primary rounded-pill get-support text-white">Get Support</a>
         </div>
       </div>
     </div>
@@ -44,6 +44,11 @@ export default {
   .navbar-nav {
     a {
       color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+      padding-right: 18px !important;
+      padding-left: 18px !important;
+      text-transform: uppercase;
     }
   }
 }

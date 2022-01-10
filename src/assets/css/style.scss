@@ -1,6 +1,32 @@
+$primary:       #6588fc;
+$warning:       #cddd1e;
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+	font-family: 'PRISTINA';
+	src: url('~@/assets/fonts/PRISTINA.eot');
+	src: local('PRISTINA'), url('~@/assets/fonts/PRISTINA.woff') format('woff'), url('~@/assets/fonts/PRISTINA.ttf') format('truetype');
+}
 
 body {
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 15px;
+}
+p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+.font-pristina {
+	font-family: 'PRISTINA' !important;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.colr-dark-blue {
+    color: #0e1951;
+}
+.colr-blue {
+    color: #6588fc;
 }

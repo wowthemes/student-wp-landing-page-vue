@@ -1,14 +1,16 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-sm-5 text-center">
-        <h2 class="text-white">The premium education</h2>
-        <h2 class="text-white">WordPress theme of 2022</h2>
+      <div class="col-sm-4 text-center d-flex align-items-center">
+        <div class="w-100">
+          <h2 class="text-white fw-bold lh-lg">The best Premium <br>Education</h2>
+          <h2 class="text-white font-pristina mb-3">WordPress theme of 2022</h2>
 
-        <a class="btn btn-primary mt-4 rounded-pill btn--space_extra">View Live demo</a><br>
-        <a class="btn btn-secondary mt-4 rounded-pill btn--space_extra">Buy this theme</a>
+          <a class="btn btn-primary mt-5 rounded-pill btn--space_extra text-uppercase fw-bold text-white">View Live demo</a><br>
+          <a class="btn btn-warning mt-4 rounded-pill btn--space_extra text-uppercase fw-bold">Buy this theme</a>
+        </div>
       </div>
-      <div class="col-sm-7 position-relative">
+      <div class="col-sm-8 position-relative">
         <img src="../assets/images/hero-img-1.png" alt="" />
         <img src="../assets/images/hero-img-2.png" class="hero--img_2 animate__animated animate__slideInUp" alt="" />
         <img src="../assets/images/hero-img-3.png" class="hero--img_3 animate__animated animate__slideInRight" alt="" />
@@ -20,7 +22,6 @@
 
 <style lang="scss">
 .site--hero_content {
-  overflow: hidden;
   .hero--img_2 {
     position: absolute;
     left: 5%;

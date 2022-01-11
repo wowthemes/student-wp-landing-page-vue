@@ -6,8 +6,8 @@
           <h2 class="text-white fw-bold lh-lg">The best Premium <br>Education</h2>
           <h2 class="text-white font-pristina mb-3">WordPress theme of 2022</h2>
 
-          <a class="btn btn-primary mt-5 rounded-pill btn--space_extra text-uppercase fw-bold text-white">View Live demo</a><br>
-          <a class="btn btn-warning mt-4 rounded-pill btn--space_extra text-uppercase fw-bold">Buy this theme</a>
+          <a class="btn btn-primary mt-5 rounded-pill btn--space_extra text-uppercase fw-bold text-white hvr-grow">View Live demo</a><br>
+          <a class="btn btn-warning mt-4 rounded-pill btn--space_extra text-uppercase fw-bold hvr-grow">Buy this theme</a>
         </div>
       </div>
       <div class="col-sm-8 position-relative">

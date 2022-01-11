@@ -5,6 +5,7 @@
       <hero class="position-relative site--hero_content" />
     </div>
     <what-else />
+    <pre-made-homes />
   </div>
 </template>
 
@@ -13,13 +14,15 @@ require('bootstrap');
 import MainHeader from './components/MainHeader.vue'
 import Hero from './components/Hero.vue'
 import WhatElse from './components/WhatElse.vue';
+import PreMadeHomes from './components/PreMadeHomes.vue';
 
 export default {
   name: 'App',
   components: {
     MainHeader,
     Hero,
-    WhatElse
+    WhatElse,
+    PreMadeHomes
   }
 }
 </script>

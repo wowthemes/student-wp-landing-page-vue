@@ -2,11 +2,20 @@ $primary:       #6588fc;
 $secondary:     #0e1951;
 $warning:       #cddd1e;
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/hover.css/scss/hover";
 
 @font-face {
 	font-family: 'PRISTINA';
 	src: url('~@/assets/fonts/PRISTINA.eot');
 	src: local('PRISTINA'), url('~@/assets/fonts/PRISTINA.woff') format('woff'), url('~@/assets/fonts/PRISTINA.ttf') format('truetype');
+}
+@font-face {font-family: "Neue Einstellung Bold";
+    src: url("~@/assets/fonts/NeueEinstellungBold.eot"); /* IE9*/
+    src: url("~@/assets/fonts/NeueEinstellungBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("~@/assets/fonts/NeueEinstellungBold.woff2") format("woff2"), /* chrome、firefox */
+    url("~@/assets/fonts/NeueEinstellungBold.woff") format("woff"), /* chrome、firefox */
+    url("~@/assets/fonts/NeueEinstellungBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("~@/assets/fonts/NeueEinstellungBold.svg#Neue Einstellung Bold") format("svg"); /* iOS 4.1- */
 }
 
 body {
@@ -17,9 +26,16 @@ p {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 300;
+    color: #4c5895;
+}
+img {
+    max-width: 100%;
 }
 .font-pristina {
 	font-family: 'PRISTINA' !important;
+}
+.font-neue-bold {
+    font-family: Neue Einstellung Bold;
 }
 .section-padding {
     padding-top: 100px;

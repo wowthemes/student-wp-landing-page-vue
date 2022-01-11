@@ -1,9 +1,26 @@
 <template>
   <section class="section-padding section--what_else">
-    <div class="text-center">
+    <div class="text-center mb-5 pb-5">
       <h6 class="colr-dark-blue fw-bold text-uppercase">Student <span class="colr-blue">WordPress Theme</span></h6>
       <h2 class="colr-dark-blue fw-bold text-uppercase">What else? You <span class="colr-blue font-pristina text-lowercase fs-1">deserve</span></h2>
       <p class="colr-blue">Student WordPress theme is generally made for online Learning Management System.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card shadow text-center">
+            <div class="card-body">
+              <div class="card-icon bg-primary rounded-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="52" viewBox="0 0 46 52">
+                  <image id="updated" width="46" height="52" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA0CAYAAAD19ArKAAAE00lEQVRogc2aa4hWRRjHf25blpGiJiZk6qbdRbst6hd1JcXItpuo1ZeyUiEoiAqErbClsg+yUZClGUVfBKHUqCiEjdJtSbuHW7iCl7LVxJLES+o/xuZs0+y858x597y7+4cHdmeey/99zsx7nnnmRVKlpFZSm6Q7K+G/isrhBHA5sA54FehfZKRKEneJLgbagNlFOe9n0l4AJgCTgMnAWGCwlREB1yuAx4HTvUX8RuBe4GZLNg922mV0stzg1WXYzAEeAWaUGfMQ8FJ3M56H+KXAyynr9CDQCnwL7AYuAp72dN4FHgJ+L+FjJNBhN3Y6Ir9+lkg6oa74RVKTpGmSzvdshjnaRyUtzojRIOm0pF2S6rI4xZB+I0B4hyXSP8VuutVtljQ6Io6Ph7tD/OOAw6ckVUUQGS6pPsdLpSEQq7Ec4s2ekw5JUyv4pjWyKED+yTzE13rGrZKGVph0IpMlHfPi3xFD/LEA6Z4g7MoEu1FdjEgjPs5T3p+xASspsz0u29KIb/eUr+4l0oks8/gsDBFf4Ckt6WXSiXzvcPpLUrVPfI+j0NZHSBu5LpTQZHKmNzmzDxE38pnDrd0lvt6Z+LkHCY2XNCpCb4aX2BuwNcbfzuCjPUD4EkmbbTzztfdshM0+h+NyM3CT92liMtAdMW/fP9UV0zN8vu5YtJqj2yynfPwJ2JWj1M2LB4BmYGDAri7D1ybn7/GGeK0z8GEFSTcBq1LmP8qw/9Q5fKjKFvwJ2nIQqQEGROiZGOvtqakUGoDNGX5+A/bZv08Zp4OcyYMRREYBLUC7PTvOS9EdA3wH3JqiMxdojIhrcKDzL0mHnUU/O2LTtQQ2Vm1A7xZJRwK6CfZKmphzk2+xtodNxvs5nyjryF9l2xA+PgDOccYWARtTllKLbWl8E5npBJ1cDZHjzsR5GYZmc3wRGB8KvGn9LQdWpvgwelMil6WP//hJ2uk8vvsjHtfYlMffnjJn8EQ33wG/ukvFbRWMjvjUO4D5JeZqUuzqgRfLyHKCi53OWLUh/oMzOS3SyVpgdaTuHmAisCE/1/9hqvPPmfTP9x7nwByPri1jaXwiaVBBpcJbjt/PsW0EF/NyOBuZQrqp4BrnkON7WTK41RnclNOhadyf8kgXXWHO8fxfk0z4/YwxOR3XSFpq5cqCSRv52uH2o5yDxLleb/C9CgQvV2Z5SV0g78z5gqdwbR8hvtfhtD8ZdxUGeCehXX2A9GovmbeFiBu521Nc34uk/X33vjsfMtjoGTzXC6T9LtYRv6MWMjrbqQkSPNODpOeqK6b4eqWMawId03cknVVh0o0B0veEdNOcmA7Scc+J+Q69MJKEqSKvj9QdF+jHG9xXyibL4VWSdnvOHowgktQ/WzL0TCtkRaClbN7Et6fZxmTDFEkbrENTL1yWojvYK4ZWBXSG2CsWs/ROBrL8pU1YKq88F7ST7AH5QIn5ett+GOaMmZbCK/Ya0NT6V9jb5wtK+FgKPB/FpoANZeqalYHMxcJkfY1d59Fxy7lZ9lFnD8d58ZW9sH3bXujmQlE/QrgLeA0Y4o2bu/o/7G2xIWfae9ts82d7tyIWsFQSGe5s4gTrbOVZZJwzUuTvVTpsx2ohcNSOmaV4rMAYnajED23W8O+3x1avZ1McgH8AuxxvKS4We9EAAAAASUVORK5CYII="/>
+                </svg>
+              </div>
+              <h3 class="text-secondary fw-bold">Free lifetime <br>updates</h3>
+              <p class="text-primary fw-light">We release the theme updates<br> regularly once you buy and <br>get updates lifetime.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -12,9 +29,34 @@ export default {
   name: 'what-else',
 }
 </script>
-<style lang="scss">
+<style lang="scss" scopeed>
 .section--what_else {
   background: url('../assets/images/bg-2.jpg') no-repeat scroll;
   background-size: cover;
+  .card {
+    border-radius: 20px;
+    border: none;
+  }
+  .card-body {
+    padding: 60px;
+    h3 {
+      font-size: 20px;
+      margin: 10px 0 20px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 1rem;
+    }
+    .card-icon {
+      width: 90px;
+      display: inline-flex;
+      height: 90px;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -15%;
+      left: 40%;
+    }
+  }
 }
 </style>

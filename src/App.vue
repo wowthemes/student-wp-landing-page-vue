@@ -6,6 +6,7 @@
     </div>
     <what-else />
     <pre-made-homes />
+    <call-to-action />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import MainHeader from './components/MainHeader.vue'
 import Hero from './components/Hero.vue'
 import WhatElse from './components/WhatElse.vue';
 import PreMadeHomes from './components/PreMadeHomes.vue';
+import CallToAction from './components/CallToAction.vue';
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     MainHeader,
     Hero,
     WhatElse,
-    PreMadeHomes
+    PreMadeHomes,
+    CallToAction
   }
 }
 </script>

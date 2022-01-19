@@ -1,49 +1,87 @@
-$primary:       #6588fc;
-$secondary:     #0e1951;
-$warning:       #cddd1e;
+$primary: #6588fc;
+$secondary: #0e1951;
+$warning: #cddd1e;
+
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "../../../node_modules/hover.css/scss/hover";
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto&display=swap");
+
 @font-face {
-	font-family: 'PRISTINA';
-	src: url('~@/assets/fonts/PRISTINA.eot');
-	src: local('PRISTINA'), url('~@/assets/fonts/PRISTINA.woff') format('woff'), url('~@/assets/fonts/PRISTINA.ttf') format('truetype');
+  font-family: "PRISTINA";
+  src: url("~@/assets/fonts/PRISTINA.eot");
+  src: local("PRISTINA"), url("~@/assets/fonts/PRISTINA.woff") format("woff"),
+    url("~@/assets/fonts/PRISTINA.ttf") format("truetype");
 }
-@font-face {font-family: "Neue Einstellung Bold";
-    src: url("~@/assets/fonts/NeueEinstellungBold.eot"); /* IE9*/
-    src: url("~@/assets/fonts/NeueEinstellungBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("~@/assets/fonts/NeueEinstellungBold.woff2") format("woff2"), /* chrome、firefox */
-    url("~@/assets/fonts/NeueEinstellungBold.woff") format("woff"), /* chrome、firefox */
-    url("~@/assets/fonts/NeueEinstellungBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("~@/assets/fonts/NeueEinstellungBold.svg#Neue Einstellung Bold") format("svg"); /* iOS 4.1- */
+@font-face {
+  font-family: "Neue Einstellung Bold";
+  src: url("~@/assets/fonts/NeueEinstellungBold.eot");
+  src: url("~@/assets/fonts/NeueEinstellungBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~@/assets/fonts/NeueEinstellungBold.woff2") format("woff2"),
+    url("~@/assets/fonts/NeueEinstellungBold.woff") format("woff"),
+    url("~@/assets/fonts/NeueEinstellungBold.ttf") format("truetype"),
+    url("~@/assets/fonts/NeueEinstellungBold.svg#Neue Einstellung Bold")
+      format("svg"); /* iOS 4.1- */
+}
+
+:root {
+  --body-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 15px;
 }
 
 body {
-    font-family: Poppins;
-    font-size: 15px;
+  font-family: var(--body-font-family);
+  font-size: 1rem;
 }
+
 p {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 300;
-    color: #4c5895;
+  font-size: 18px;
+  font-weight: 300;
+  color: #4c5895;
 }
+
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
+
+.text-heading {
+  font-family: var(--heading-font-family);
+}
+
 .font-pristina {
-	font-family: 'PRISTINA' !important;
+  font-family: "PRISTINA" !important;
 }
 .font-neue-bold {
-    font-family: Neue Einstellung Bold;
+  font-family: Neue Einstellung Bold;
 }
 .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .colr-dark-blue {
-    color: #0e1951;
+  color: #0e1951;
 }
 .colr-blue {
-    color: #6588fc;
+  color: #6588fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .text-heading;
+}
+
+.btn {
+    @extend .text-heading;
+    line-height: 1.2;
+    font-size: 0.9rem;
+    padding: 1rem 1.75rem;
 }

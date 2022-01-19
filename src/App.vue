@@ -6,7 +6,21 @@
     </div>
     <what-else />
     <pre-made-homes />
-    <call-to-action />
+    <!-- <buy-themes /> -->
+    <create-sell />
+    <one-click />
+    <what-you-get />
+    <student-useful />
+    <payment-gateway />
+    <elementor-builder />
+    <revo-slider />
+    <student-useful-inner-pages />
+    <testi-monals />
+    <footer-section />
+
+
+
+
   </div>
 </template>
 
@@ -16,7 +30,28 @@ import MainHeader from './components/MainHeader.vue'
 import Hero from './components/Hero.vue'
 import WhatElse from './components/WhatElse.vue';
 import PreMadeHomes from './components/PreMadeHomes.vue';
-import CallToAction from './components/CallToAction.vue';
+import ElementorBuilder from './components/ElementorBuilder.vue';
+import RevoSlider from './components/RevoSlider.vue';
+import TestiMonals from './components/TestiMonals.vue';
+import FooterSection from './components/FooterSection.vue';
+import CreateSell from './components/CreateSell.vue';
+import WhatYouGet from './components/WhatYouGet.vue';
+import StudentUsefulInnerPages from './components/StudentUsefulInnerPages.vue';
+import StudentUseful from './components/StudentUseful.vue';
+import PaymentGateway from './components/PaymentGateway.vue';
+import OneClick from './components/OneClick.vue';
+// import BuyThemes from './components/BuyThemes.vue';
+
+
+
+
+
+
+
+
+
+
+
 
 export default {
   name: 'App',
@@ -25,7 +60,17 @@ export default {
     Hero,
     WhatElse,
     PreMadeHomes,
-    CallToAction
+    ElementorBuilder,
+    RevoSlider,
+    TestiMonals,
+    FooterSection,
+    CreateSell,
+    WhatYouGet,
+    StudentUsefulInnerPages,
+    StudentUseful,
+    PaymentGateway,
+    OneClick,
+    // BuyThemes
   }
 }
 </script>

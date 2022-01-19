@@ -60,7 +60,7 @@ export default {
     border-radius: 20px;
     border: none;
     transition: all 0.8s;
-    cursor: pointer;
+
     .card-body {
       padding: 60px 60px 40px;
       h3 {
@@ -68,7 +68,6 @@ export default {
         margin: 10px 0 20px;
       }
       p {
-        font-family: Roboto;
         font-size: 1rem;
         color: #4c5895;
       }

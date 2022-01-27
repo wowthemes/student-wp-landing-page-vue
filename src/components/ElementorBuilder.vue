@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-6">
-            <div class="ele-ico d-flex mt-5r ">
+        <div class="col-lg-6 col-md-12">
+            <div class="ele-ico d-flex mt-5r">
               <div class="img-box">
                 <a class="text-decoration-none">
                   <img  src="../assets/images/plugin-icon-elemt-builder.png">
@@ -21,13 +21,13 @@
 
             <p class="text-dark pt-3 ">Get full course over the page using the bulided powerful builder. It Darg Editor allows you to creat without any line of code. </p>
 
-            <div class="d-flex pt-4 pb-4">
-              <div class="col-6">
+            <div class="row pt-4 pb-4">
+              <div class="col-lg-6">
                 <h5>Elementor <br>Builder Webiste</h5>
                 <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, totam corporis quis quisquam ipsa</p>
               </div>
 
-              <div class="col-6">
+              <div class="col-lg-6 mt-sm-4 mt-lg-0">
                 <h5>Live Responsive <br> Editing</h5>
                 <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, totam voluptas asperiores corporis quis quisquam ipsa</p>
               </div>  
@@ -35,7 +35,7 @@
         
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <figure class="bulider-section">
                 <img class="builder-img" src="../assets/images/image-builder-1.png">
           </figure>
@@ -90,8 +90,16 @@ h5 {
     margin: 0;
 }
 
-@media (min-width:768px) {
+ .row {
+    flex-direction: column-reverse;
+  } 
+
+@media (min-width:992px) {
+
+  .row {
+    flex-direction: row;
   
+  }
   .mt-5r {
     margin-top: 5rem;
   }

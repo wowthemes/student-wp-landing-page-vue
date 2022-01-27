@@ -6,7 +6,6 @@
     </div>
     <what-else />
     <pre-made-homes />
-    <!-- <buy-themes /> -->
     <create-sell />
     <one-click />
     <what-you-get />
@@ -17,9 +16,6 @@
     <student-useful-inner-pages />
     <testi-monals />
     <footer-section />
-
-
-
 
   </div>
 </template>
@@ -40,14 +36,6 @@ import StudentUsefulInnerPages from './components/StudentUsefulInnerPages.vue';
 import StudentUseful from './components/StudentUseful.vue';
 import PaymentGateway from './components/PaymentGateway.vue';
 import OneClick from './components/OneClick.vue';
-// import BuyThemes from './components/BuyThemes.vue';
-
-
-
-
-
-
-
 
 
 
@@ -95,7 +83,7 @@ export default {
       z-index: 0;
     }
     .site--hero_content {
-      padding: 120px 0;
+      padding: 120px 15px;
     }
     .btn--space_extra {
       padding: 20px 65px;

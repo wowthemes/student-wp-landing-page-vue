@@ -7,14 +7,14 @@
       <div class="container">
         <div class="theme-box mb-100">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-lg-9 col-md-12">
                     <div class="theme-content d-flex justify-content-center">
                         <div class="theme-logo align-self-center">
                             <i class="icon-cap"></i>
                         </div>
                         <div class="theme-heading">
                             <div class="buy-text text-light text-center">
-                                <h3 class="fw-bold">Ultimate Theme for online<span class="pl-2 text-light font-pristina fs-4 fw-normal">Courses <span class="fw-bolder"> & </span>  Education</span>
+                                <h3 class="fw-bold">Ultimate Theme for online <span class="pl-2 text-light font-pristina fs-4 fw-normal">Courses <span class="fw-bolder"> & </span>  Education</span>
                                 </h3>
                             </div>
                             <div class="para-box text-center">
@@ -23,9 +23,9 @@
                         </div>
                     </div>
                 </div>  
-                <div class="col-md-3 align-self-center">
+                <div class="col-lg-3 col-md-12 align-self-center">
                     <div class="d-flex buy-theme-btn">
-                        <a href="#" class="btn btn-warning fw-bold rounded-pill buy-theme text-black">BUY THIS THEME</a>
+                        <a :href="buy" target="_blank" class="btn btn-warning fw-bold rounded-pill buy-theme text-black">BUY THIS THEME</a>
                     </div>
                 </div>          
             </div>
@@ -64,7 +64,11 @@
 <script>
 export default {
   name: 'create-sell',
-    
+  data() {
+    return {
+      buy: process.env.VUE_APP_BUYURL_2,
+    }
+  }
 }
 </script>
 
@@ -140,7 +144,7 @@ export default {
 
 
 
-@media (min-width:768px){
+@media (min-width:992px){
 
     .theme-box {
       margin-top: -170px;

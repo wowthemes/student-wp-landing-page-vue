@@ -6,9 +6,9 @@
       Student WordPress theme is generally made for online Learning Management System.
     </section-heading>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4" v-for="box in boxes" :key="box.title">
-          <div class="card shadow text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 mb-5 pb-3" v-for="box in boxes" :key="box.title">
+          <div class="card shadow h-100 text-center">
             <div class="card-body">
               <div class="card-icon rounded-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="52" viewBox="0 0 46 52">
@@ -54,13 +54,14 @@ export default {
 </script>
 <style lang="scss" scopeed>
 .section--what_else {
+  padding-bottom: 36px !important;
   background: url('../assets/images/bg-2.jpg') no-repeat scroll;
   background-size: cover;
   .card {
     border-radius: 20px;
     border: none;
     transition: all 0.8s;
-
+    cursor: pointer;
     .card-body {
       padding: 60px 60px 40px;
       h3 {
@@ -68,6 +69,7 @@ export default {
         margin: 10px 0 20px;
       }
       p {
+        font-family: Roboto;
         font-size: 1rem;
         color: #4c5895;
       }
@@ -91,6 +93,10 @@ export default {
         transform: rotate(360deg);
       }
     }
+  }
+
+  .h-100 {
+    height:100% !important;
   }
 }
 </style>

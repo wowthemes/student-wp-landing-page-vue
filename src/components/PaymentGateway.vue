@@ -21,11 +21,6 @@
                                 <img src="../assets/images/icon/icon-payment-gateways.png" />
                             </figure>
                         </div>
-                        <div class="payment-gateway-img">
-                            <figure>
-                                <img src="../assets/images/bg-clouds.png" />
-                            </figure>
-                        </div>
                     </div>
                 </div>  
                 <div class="col-md-6 px-0">
@@ -90,34 +85,40 @@
       font-size: 9px;
       font-family: sans-serif;
     }
-
-.payment-gateway-box {
-    background-image: url(../assets/images/bg-2.jpg)
-}
-.payment-gateway-col {
-    background-color: #2a166f;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-}
-.sec {
-    background-color:  #4764fd; 
-    background-image: url(../assets/images/bg-pattern.png)
-
-}
-.payment-text {
-    padding: 65px 20px 20px 20px;
-}
-.payment-gateway-image img {
-    width: 200px;
-}
-.payment-gateway-img img {
-    width: 680px;
-}
-.lg img {
-    width: 400px !important;
-}
-figure {
-    margin: 0;
-}
+    .payment-gateway-col {
+        background-color: #2a166f;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 160px;
+        background-image: url("../assets/images/bg-clouds.png");
+        background-position: bottom;
+        background-repeat-x: repeat;
+        background-repeat-y: no-repeat;
+    }
+    .sec {
+        background-color:  #4764fd; 
+        background-image: url(../assets/images/bg-pattern.png);
+        background-repeat: repeat;
+    }
+    .payment-text {
+        padding: 65px 20px 20px 20px;
+    }
+    .payment-gateway-image img {
+        width: 200px;
+    }
+    .payment-gateway-img img {
+        width: 680px;
+    }
+    .lg img {
+        width: 400px !important;
+    }
+    figure {
+        margin: 0;
+    }
+    @media (min-width: 768px) {
+        .payment-gateway-col {
+            padding-bottom: 90px;
+        }
+    }
 </style>

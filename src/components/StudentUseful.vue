@@ -11,139 +11,139 @@
                 <p class="text-dark">Student WordPress theme is generally made for online Learning Management System.</p>
             </div>
             <div class="container mt-4">
-                <div class="row">
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-1"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Create Courses <br> And Lessons</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="gx-5 gx-md-0">
 
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-2"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Sell Courses <br> Online</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-1"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Create Courses <br> And Lessons</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-3"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Event<br>Management</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-2"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Sell Courses <br> Online</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-3"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Event<br>Management</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-4"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>One Click Demo <br> Install</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-5"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Customizable <br> Design & Code</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-6"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Installed Extensions <br> are included.</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of time unlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-7"></i>
+
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Cross Browser <br> Support.</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-8"></i>
+                                </div>
+                                <div class="student-useful-heading">
+                                    <h3>Child Theme <br>Included</h3>
+                                </div>
+                                <div class="student-useful paragraph">
+                                    <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 my-md-4 my-4">
+                            <div class="student-useful-col-main student-bg-styled text-center mb-4">
+                                <div class="student-useful-icon">
+                                    <i class="icon-icon-9"></i>
+                                </div>
+                                <div class="student-useful-heading text-white">
+                                    <h3>Documentation<br> included.</h3>
+                                </div>
+                                <div class="student-useful paragraph ">
+                                    <p class="text-white">Install each of themes unlimited number of timeunlimited number of domains.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-4"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>One Click Demo <br> Install</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-5"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Customizable <br> Design & Code</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-6"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Installed Extensions <br> are included.</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of time unlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-7"></i>
-
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Cross Browser <br> Support.</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-8"></i>
-                            </div>
-                            <div class="student-useful-heading">
-                                <h3>Child Theme <br>Included</h3>
-                            </div>
-                            <div class="student-useful paragraph">
-                                <p>Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-md-4 my-4">
-                        <div class="student-useful-col-main student-bg-styled text-center mb-4">
-                            <div class="student-useful-icon">
-                                <i class="icon-icon-9"></i>
-                            </div>
-                            <div class="student-useful-heading text-white">
-                                <h3>Documentation<br> included.</h3>
-                            </div>
-                            <div class="student-useful paragraph ">
-                                <p class="text-white">Install each of themes unlimited number of timeunlimited number of domains.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
 

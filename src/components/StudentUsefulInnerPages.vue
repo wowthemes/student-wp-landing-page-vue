@@ -44,7 +44,7 @@ figure {
     padding-top:50px !important;
 } 
 
-@media (min-width:768px){
+@media (min-width:992px){
    .section-padding {
         padding-bottom:350px !important;
     } 

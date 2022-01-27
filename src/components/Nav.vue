@@ -6,9 +6,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'nav',
+  data() {
+    return {
+      support: process.env.VUE_APP_SUPPORT_URL,
+    }
   }
 }
 </script>

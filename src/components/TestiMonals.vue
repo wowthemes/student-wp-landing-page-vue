@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-pattren">
+  <div class="bg-pattren" id="installation">
     <div class="container">
       <section class="section-padding">
         <div class="video-block text-center">

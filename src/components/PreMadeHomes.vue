@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row justify-content-center mt-5">
         <div class="col-sm-6 col-lg-4 text-center" v-for="home in homes" :key="home.title">
-          <a class="text-decoration-none hvr-grow reveal animate__delay-1s" :data-animate="home.animation" :href="home.url" target="_blank" :title="home.title">
+          <a class="text-decoration-none hvr-grow reveal" :data-animate="home.animation" :href="home.url" target="_blank" :title="home.title">
             <img :src="require(`../assets/${home.img}`)" class="img mb-4" :alt="home.title" />
             <h4 class="font-neue-bold text-secondary">{{ home.title }}</h4>
           </a>

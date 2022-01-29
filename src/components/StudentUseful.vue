@@ -15,7 +15,7 @@
         <div class="gx-5 gx-md-0">
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 my-md-4 my-4" v-for="feature in features" :key="feature.title">
-              <div :class="['student-useful-col-main text-center mb-4', feature.active && 'student-bg-styled']">
+              <div :class="['student-useful-col-main text-center mb-4 reveal', feature.active && 'student-bg-styled']" :data-animate="feature.animation">
                 <div class="student-useful-icon">
                   <i class="icon-icon-1" :style="{backgroundImage: `url(${getIcon(feature.icon)})`}"></i>
                 </div>
@@ -46,47 +46,56 @@ export default {
         {
           title: 'Create Courses<br> and Lessons',
           icon: 'icon-1.png',
-          text: 'You can create unlimited courses, lesson and recurring courses.'
+          text: 'You can create unlimited courses, lesson and recurring courses.',
+          animation: 'animate__slideInDown',
         },
         {
           title: 'Sell courses<br> Online',
           icon: 'icon-2.png',
-          text: 'Using LearnPress WordPress plugin you can sell courses online using number of Payment Gateways'
+          text: 'Using LearnPress WordPress plugin you can sell courses online using number of Payment Gateways',
+          animation: 'animate__slideInUp',
         },
         {
           title: 'Events<br> Management',
           icon: 'icon-3.png',
-          text: 'Student WP theme comes with The Event Calendar plugin compatibility to schedule events online.'
+          text: 'Student WP theme comes with The Event Calendar plugin compatibility to schedule events online.',
+          animation: 'animate__slideInDown',
         },
         {
           title: 'One Click Demo<br> Install',
           icon: 'icon-4.png',
-          text: 'Student WP theme comes with One click demo installation so start a wizard and content is ready within few minutes.'
+          text: 'Student WP theme comes with One click demo installation so start a wizard and content is ready within few minutes.',
+          animation: 'animate__slideInUp',
         },
         {
           title: 'Customizablity<br> and Flexibility',
           icon: 'icon-5.png',
-          text: 'Student WP theme comes with bundles of theme options and Elementor plugin that enables to customize anything.'
+          text: 'Student WP theme comes with bundles of theme options and Elementor plugin that enables to customize anything.',
+          animation: 'animate__slideInDown',
         },
         {
           title: 'Optimized Code<br> and CSS',
           icon: 'icon-6.png',
-          text: 'Student WP theme code is optimized and well written so any PHP/WordPress developer can easily understand and modify.'
+          text: 'Student WP theme code is optimized and well written so any PHP/WordPress developer can easily understand and modify.',
+          animation: 'animate__slideInUp',
         },
         {
           title: 'Cross Browser<br> support',
           icon: 'icon-7.png',
-          text: 'Student WP theme is compatible with all major browsers. It is fully responsive and fluid on all the devices'
+          text: 'Student WP theme is compatible with all major browsers. It is fully responsive and fluid on all the devices',
+          animation: 'animate__slideInDown',
         },
         {
           title: 'Child Theme<br> include',
           icon: 'icon-8.png',
-          text: 'Student WP theme comes with Child theme support and its templates could be override from child theme with less code.'
+          text: 'Student WP theme comes with Child theme support and its templates could be override from child theme with less code.',
+          animation: 'animate__slideInUp',
         },
         {
           title: 'Well<br> Documented',
           icon: 'icon-9-white.png',
           text: 'Documentation is included in the full package and avialable online as well. Video tutorials are also available on youtube',
+          animation: 'animate__slideInDown',
           active: true,
         },
       ]

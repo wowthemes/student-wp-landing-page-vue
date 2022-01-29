@@ -10,7 +10,7 @@
                 <div class="col-lg-9 col-md-12">
                     <div class="theme-content d-flex justify-content-center">
                         <div class="theme-logo align-self-center">
-                            <i class="icon-cap"></i>
+                            <i class="icon-cap-2"></i>
                         </div>
                         <div class="theme-heading">
                             <div class="buy-text text-light text-center">
@@ -85,9 +85,15 @@ export default {
     }
 
     .icon-cap {
-      background-image: url("../assets/images/icon/icon-cap-white.png");
+      background-image: url("../assets/images/icon/icon-cap.png");
       width: 42px;
       height: 21px;
+      margin-right: 5px;
+    }
+    .icon-cap-2 {
+      background-image: url("../assets/images/icon/icon-cap-white-big.png");
+      width: 99px;
+      height: 49px;
       margin-right: 5px;
     }
 

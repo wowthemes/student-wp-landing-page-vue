@@ -32,7 +32,7 @@
         <div class="container mt-5">
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 my-4" v-for="review in reviews" :key="review.name">
-              <div class="user-img-post">
+              <div class="user-img-post reveal" :data-animate="review.animation">
                 <div
                   class="
                     testimonal-area
@@ -99,17 +99,20 @@ export default {
         {
           name: 'asimd2',
           review: 'Very helpful and accessible. The theme is very useful and up-to-date.You can use it with peace of mind',
-          thumb: 'male-placeholder.jpeg'
+          thumb: 'male-placeholder.jpeg',
+          animation: 'animate__slideInDown',
         },
         {
           name: 'danish_tariq',
           review: 'Your software is good but i am very happy for your instant support, you were always ready to solve your customer problems and which is very appreciated. i strongly recommend your product and i ll love to work with you in future,thanks alot for your support',
-          thumb: 'male-placeholder.jpeg'
+          thumb: 'male-placeholder.jpeg',
+          animation: 'animate__slideInUp',
         },
         {
           name: 'Tlazya',
           review: 'All is good, design, coding, and support <br>I like it and used it for one of my customers and might use it for another two.',
-          thumb: 'male-placeholder.jpeg'
+          thumb: 'male-placeholder.jpeg',
+          animation: 'animate__slideInDown',
         },
       ],
     };

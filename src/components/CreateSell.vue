@@ -85,7 +85,7 @@ export default {
     }
 
     .icon-cap {
-      background-image: url("../assets/images/icon/icon-cap.png");
+      background-image: url("../assets/images/icon/icon-cap-white.png");
       width: 42px;
       height: 21px;
       margin-right: 5px;
